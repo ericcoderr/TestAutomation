@@ -1,0 +1,15 @@
+login with eric user scenarios: 
+      - login.Login |click notify
+      - login.Login |click notify2
+      - login.Login |click notify3
+      - login.Login |click notify4
+      - login.Login |click notify5
+      - login.Login |click notify6
+      - login.Login |click notify7
+      - login.Login | input username
+      - login.Login | input password
+      - login.Login | click login button
+
+login with qq scenarios: 
+    - login.Login | input username
+

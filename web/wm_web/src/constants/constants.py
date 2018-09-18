@@ -1,0 +1,10 @@
+class Constants:
+    WEB_TEST_ENV = 'server_env'
+    TEST_CASE_PATH = 'test_case_path'
+    TEST_CASE_PATTERN = 'test_case_pattern'
+    REPORT_PATH = 'report_path'
+    DESC_SYS = 'desc_sys'
+    SELENIUM_SERVER = 'selenium_server'
+    DESC_HOST = 'desc_host'
+    DOWNLOAD_PATH = 'download_path'
+    UPLOAD_PATH = 'upload_path'

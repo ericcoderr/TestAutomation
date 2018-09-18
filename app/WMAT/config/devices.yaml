@@ -1,0 +1,31 @@
+#active use ' , ' split,e.g huawei,htc
+active: huawei
+devices:
+    huawei:
+        platformName: Android
+        deviceName: Android Emulator
+        platformVersion: 4.3
+        autoAcceptAlerts: true
+        unicodeKeyboard: true
+        resetKeyboard: true
+        noReset: true
+        fullReset: true
+        #appPackage: com.android.browser
+        #appActivity: .BrowserActivity
+        app: 'C:/Users/ehuan12/android/android.apk'
+        url: 'http://127.0.0.1:4723/wd/hub'
+
+    htc:
+        platformName: Android
+        deviceName: Android Emulator
+        platformVersion: 4.3
+        autoAcceptAlerts: true
+        unicodeKeyboard: true
+        resetKeyboard: true
+        #appPackage = com.android.browser
+        #appActivity = .BrowserActivity
+        app: /Users/ddxflqm/ownCloud/TIMMY/android.apk
+        url: 'http://192.168.21.58:4723/wd/hub'
+
+
+

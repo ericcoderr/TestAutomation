@@ -1,0 +1,149 @@
+click notify:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]
+        action: click
+        step_desc: 1
+
+click notify2:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]
+        action: click
+        step_desc: '2'
+
+click notify3:
+        element: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]
+        action: type
+        data: dongguan
+        step_desc: '3'
+
+click notify4:
+        element: //android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+        action: click
+        step_desc: '4'
+
+click notify5:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]
+        action: wait
+        step_desc: '5'
+
+click notify6:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]
+        action: click
+        step_desc: '6'
+
+
+click notify7:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.TextView[2]
+        action: click
+        step_desc: '7'
+
+
+input username:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.EditText[1]
+        action: type
+        data: 18100002062
+        step_desc: 'input user name'
+
+input password:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[3]/android.widget.EditText[1]
+        action: type
+        data: a123456
+        step_desc: 'input user password'
+
+click login button:
+        element: login_btn_signin
+        action: click
+        step_desc: '点击登录按钮'
+
+input car:
+        element: tab_cart_textview
+        action: click
+        step_desc: '进入购物车'
+
+check out:
+        element: cart_check_out_but
+        action: click
+        step_desc: 'check out'
+
+delivery time:
+        element: delivery_time_linearlayout
+        action: click
+        step_desc: '选择配送时间'
+
+delivery time confirm:
+        element: listview_choose_time
+        action: click
+        step_desc: '确认配送时间'
+
+pay set:
+        element: pay_set_commit
+        action: click
+        step_desc: '下一步支付'
+
+pay confirm:
+        element: pay_confirm_commit
+        action: click
+        step_desc: '确认支付'
+
+pay wait:
+        action: wait
+        data: 6
+        step_desc: '等待'
+
+my account:
+        element: tab_more_textview
+        action: click
+        step_desc: '进入我的账户'
+
+my orders:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]
+        action: click
+        step_desc: '进入我的订单'
+
+select not pay:
+        element: //android.widget.FrameLayout[0]/android.widget.LinearLayout[0]/android.widget.FrameLayout[0]/android.widget.RelativeLayout[1]/android.widget.ListView[0]/android.widget.LinearLayout[0]/android.widget.RelativeLayout[0]/android.widget.TextView[2]
+        action: click
+        step_desc: '选择未支付订单'
+
+union pay:
+        element: order_pay_bankcard_icon
+        action: click
+        step_desc: '选择银联支付'
+
+confirm pay:
+        element: confirom_and_pay
+        action: click
+        step_desc: '选择支付方式后确认支付'
+
+unionpay login:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]
+        action: click
+        step_desc: 银联登录
+get current:
+        action: get_current_activity
+        step_desc: '获取当前activity'
+
+unionpay username:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.EditText[1]
+        action: type
+        data: 3123123213
+        step_desc: 银联输入账号
+
+
+tap test:
+    action: tap
+    data: 10,20
+
+expectation test:
+    element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ListView[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    expectation:
+        - ''
+
+switch app:
+    action: switch_to_webview
+    data: com.android.settings,.Settings
+
+#unit second
+background app:
+    action: background_app
+    data: 5
+
+

@@ -1,0 +1,11 @@
+login by script:
+      - login.Login |click notify
+      - login.Login |click notify2
+      - login.Login |click notify3
+      - login.Login |click notify4
+      - login.Login |click notify5
+      - login.Login |click notify6
+      - login.Login |click notify7
+      - script.script | input username
+      - login.Login | input password
+      - script.script | click login button

@@ -1,0 +1,32 @@
+login with eric user scenarios:
+      # - login.Login |click notify
+      # - login.Login |click notify2
+      # - login.Login |click notify3
+      # - login.Login |click notify4
+      # - login.Login |click notify5
+      # - login.Login |click notify6
+      # - login.Login |click notify7
+      # - login.Login | input username
+      # - login.Login | input password
+      # - login.Login | click login button
+      - login.Login | input car
+      - login.Login | check out
+      - login.Login | delivery time
+      - login.Login | delivery time confirm
+      - login.Login | pay wait
+      - login.Login | pay set
+      - login.Login | pay confirm
+      # - login.Login | my account
+      # - login.Login | tap test
+      # - login.Login | my orders
+      - login.Login | union pay
+      - login.Login | confirm pay
+      # - login.Login | get current
+      - login.Login | unionpay login
+      - login.Login | pay wait
+      - login.Login | unionpay username
+      - login.Login | pay wait
+
+login with qq scenarios:
+    - login.Login | expectation test
+

@@ -1,0 +1,9 @@
+login with eric user case:
+    scenarios_suites:
+        - LoginScenarios | login with eric user scenarios
+# login qq case:
+#     scenarios_suites:
+#          - LoginScenarios | login with qq scenarios | x=10;20
+# login qq case1:
+#     scenarios_suites:
+#          - LoginScenarios | login with qq scenarios | x=10;20

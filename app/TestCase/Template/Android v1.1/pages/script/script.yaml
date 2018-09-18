@@ -1,0 +1,17 @@
+
+input username:
+        action: ${demo_pkg.demo_module.DemoClass.run_action}
+        step_desc: 'input user name'
+
+input password:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[3]/android.widget.EditText[1]
+        action: type
+        data: a123456
+        step_desc: a123456
+    
+click login button:
+        element: //android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[4]/android.widget.Button[1]
+        action: click
+        expectation: ${demo_pkg.demo_module.DemoClass.check}
+        step_desc: 'check'
+

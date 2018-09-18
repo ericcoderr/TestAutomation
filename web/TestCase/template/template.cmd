@@ -1,0 +1,1 @@
+python ../../wm_web/src/bootstrap.py --config template/config.ini
